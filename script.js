@@ -44,3 +44,6 @@ const myAgeInDogYears = earlyYears + laterYears;
 //this built-in method will display myName in lower case. 
 const myName = 'Steven Garcia'.toLowerCase();
 console.log(`My name is ${myName}.  I'm ${myAgeInDogYears} years old in dog years.`);
+
+//******************************************************************************* */
+
