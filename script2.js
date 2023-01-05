@@ -35,6 +35,30 @@ break;
 console.log(`The Magic Eight Ball States: ${eightBall}`)
 
 
+//BUILT THIS VERSION OF THE PROJECT USING MORE COMPLEX CONDITIONALS BY ADDING "else if" TO THE "if" STATEMENTS.
+
+let magicNumber = Math.floor(Math.random() * 8);
+
+
+if (magicNumber === 0) {
+  console.log('The Magic Eight Ball States: It is certain');
+} else if (magicNumber === 1) {
+  console.log('The Magic Eight Ball States: It is decidedly so');
+} else if (magicNumber === 2) {
+  console.log('The Magic Eight Ball States: Reply hazy try again');
+} else if (magicNumber === 3) {
+  console.log('The Magic Eight Ball States: Cannot predict now');
+} else if (magicNumber === 4) {
+  console.log('The Magic Eight Ball States: Do not count on it');
+} else if (magicNumber === 5) {
+  console.log('The Magic Eight Ball States: My sources say no');
+} else if (magicNumber === 6) {
+  console.log('The Magic Eight Ball States: Outlook not so good');
+} else if (magicNumber === 7) {
+  console.log('The Magic Eight Ball States: Signs point to yes');
+}
+  console.log(`${magicNumber}`);
+
 
 
 
