@@ -56,7 +56,9 @@ if (magicNumber === 0) {
   console.log('The Magic Eight Ball States: Outlook not so good');
 } else if (magicNumber === 7) {
   console.log('The Magic Eight Ball States: Signs point to yes');
-}
+} else {
+  'The Magic Eight Ball States: You broke me!'}
+  
   console.log(`${magicNumber}`);
 
 
