@@ -23,3 +23,8 @@ if(runnersAge > 18 && earlyRegistered) {
 } else {
   console.log(`Please see the registration desk.`); //THIS else STATEMENT WILL PRINTS THE FOLLOWING IF THEY ARE EXACTLY 18 YEARS OLD
 } 
+
+function greetRunners() {
+  console.log('Good Luck Runners! Have fun!');
+}greetRunners(); // Output: Good Luck Runners! Have fun!
+ 
